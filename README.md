@@ -7,7 +7,7 @@
 
 ## Description
 
-This application... ADD INFO
+This application will implement a database to list animals available for adoption at our amazing Furr Real Animal Shelter!
 
 ## Setup/Installation Requirements
 
@@ -16,12 +16,14 @@ Software Requirements
 * A code editor; I prefer VSCode
 
 Open by Downloading or Cloning
-* Navigate to <GITHUB REPO URL>
+* Navigate to <https://github.com/tawneeh/AnimalShelter.Solution.git>
 * Download this repository to your computer by clicking the green Code button and 'Download Zip'
 * Or clone the repository
 
 Setup Instructions
-* 
+* Navigate to the Tracker project directory and type `dotnet restore` into the terminal
+* Then, type `dotnet build` into the terminal followed by `dotnet run`
+* Peruse this application at your leisure
 
 ## Known Bugs
 
@@ -31,9 +33,12 @@ This application has no known bugs.
 
 Please feel free to reach out to me anytime at <tawneeh@icloud.com>
 
+Co-authored-by: Kevin Kirkley <kevinmkirkley@gmail.com>
+
 ## Technologies Used
 
 * C#
+* EF Core
 
 ### License
 
