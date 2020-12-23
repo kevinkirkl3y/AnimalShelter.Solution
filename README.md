@@ -33,8 +33,6 @@ This application has no known bugs.
 
 Please feel free to reach out to me anytime at <tawneeh@icloud.com>
 
-Co-authored-by: Kevin Kirkley <kevinmkirkley@gmail.com>
-
 ## Technologies Used
 
 * C#
