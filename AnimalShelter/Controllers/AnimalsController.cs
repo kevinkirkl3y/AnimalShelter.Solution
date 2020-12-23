@@ -44,6 +44,17 @@ namespace AnimalShelter.Controllers
         Animal thisAnimal = _db.Animals.FirstOrDefault(animals => animals.AnimalId == id);
         return View(thisAnimal);
     }
+    public async Task<IActionResult> Index(string searchString)
+    {
+      var animals = from a in _db.Animals
+            select a;
+
+      if (!String.IsNullOrEmpty(searchString))
+      {
+        animals = animals.Where(s => s.Type.Contains(searchString));
+      }
+      return View(await animals.ToListAsync());
+    }
 
   }
 }

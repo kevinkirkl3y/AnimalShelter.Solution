@@ -14,4 +14,11 @@
   }
 </ul>
 
+<form asp-controller="Animals" asp-action="Index">
+  <p>
+  Animal Type: <input type="text" name="SearchString">
+  <input type="submit" value="Filter" />
+  </p>
+</form>
+
 <p>@Html.ActionLink("Add new Animal", "Create")</p> 
